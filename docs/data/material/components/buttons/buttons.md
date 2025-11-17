@@ -7,6 +7,7 @@ githubLabel: 'scope: button'
 waiAria: https://www.w3.org/WAI/ARIA/apg/patterns/button/
 githubSource: packages/mui-material/src/Button
 ---
+import LoadingButtons from './LoadingButtons';
 
 # Button
 
@@ -34,6 +35,14 @@ are typically used for less-pronounced actions, including those located: in dial
 In cards, text buttons help maintain an emphasis on card content.
 
 {{"demo": "TextButtons.js"}}
+### Loading button
+
+This example shows how to add a loading indicator to a button using `CircularProgress`.
+
+```tsx
+<LoadingButtons />
+```
+
 
 ### Contained button
 
